@@ -201,37 +201,27 @@
         let total = subTotal + pajak;
         let result = `
             <div class="container">
-            <div>
-                <h2>
-                Total
-                </h2>
-            </div>
-            <div>
                 <div>
-                <p>
-                    Sub-total
-                </p>
-                <p>
-                    ${subTotal}
-                </p>
-                </div>
-                <div >
-                <p>
-                    Pajak
-                </p>
-                <p>
-                    ${pajak}
-                </p>
-                </div>
-                <div>
-                <p>
+                    <h2>
                     Total
-                </p>
-                <p>
-                    ${total}
-                </p>
+                    </h2>
                 </div>
-            </div>
+                <div>
+                  <table>
+                      <tr>
+                        <td>Sub_total = </td>
+                        <td>${subTotal}</td>
+                      </tr>
+                      <tr>
+                        <td>Pajak     = </td>
+                        <td> ${pajak}</td>
+                      </tr>
+                      <tr>
+                        <td>Total     = </td>
+                        <td> ${total}</td>
+                      </tr>
+                    </table>
+                </div>
             </div>
             `
         return result
