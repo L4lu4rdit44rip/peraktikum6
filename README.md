@@ -1,1 +1,1 @@
-# peraktikum6
+# pw_praktikum_6
